@@ -13,26 +13,60 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  font-family: "Karla", sans-serif;
+
+}
+
+.header {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 65px;
 }
 
-.App-link {
-  color: #61dafb;
+.header--image {
+  height: 100%;
+  margin-right: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header--project {
+  font-size: 0.75rem;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+main {
+  margin: 25px;
+  padding: 25px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px /1fr 1fr;
+  gap: 17px;
+}
+
+.form--input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-indent: 5px;
+  font-size: 1rem;
+}
+
+.form--button {
+  grid-column: 1/-1;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  font-family: "Karla", sans-serif;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+
+
 }
