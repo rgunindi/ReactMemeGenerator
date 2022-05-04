@@ -67,6 +67,8 @@ main {
   border: none;
   cursor: pointer;
   color: #FFFFFF;
-
-
+}
+.form--img{
+  margin-top: 15px;
+width:  50%;
 }
